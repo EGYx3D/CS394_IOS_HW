@@ -2,7 +2,7 @@
 //  Card.h
 //  BlackJackApp
 //
-//  Created by Reem Hassan on 3/4/14.
+//  Created by Reem Hassan on 3/11/14.
 //  Copyright (c) 2014 Reem Hassan. All rights reserved.
 //
 

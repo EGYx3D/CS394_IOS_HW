@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Hand : NSObject
+@class Card;
+
+@interface Hand : NSObject {
+}
+
+@property NSMutableArray *cardsInHand;
+@property BOOL handClosed;
+
+-(void) addCard:(Card *)card;
+-(NSInteger) getCardValue;
+-(NSInteger) countCards;
+-(Card *) getCardAtIndex:(NSInteger) index;
 
 @end
