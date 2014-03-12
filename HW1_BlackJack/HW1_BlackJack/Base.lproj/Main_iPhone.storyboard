@@ -31,6 +31,9 @@
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="splitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="I2T-WP-squ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCr-rV-QUM">
                                 <rect key="frame" x="117" y="493" width="86" height="34"/>
@@ -41,6 +44,9 @@
                                     <color key="titleColor" red="0.036698914249999999" green="0.99074343649999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="endGameButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SbS-BV-m7Z"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeC-Gm-WBY">
                                 <rect key="frame" x="216" y="493" width="67" height="34"/>
@@ -51,6 +57,9 @@
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="doubleButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="xZ1-uy-t5u"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uz2-xr-cfb">
                                 <rect key="frame" x="75" y="452" width="75" height="33"/>
@@ -61,6 +70,9 @@
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="hitButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MhC-jU-JnF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUO-XT-3Fj">
                                 <rect key="frame" x="171" y="452" width="76" height="33"/>
@@ -71,6 +83,9 @@
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="standButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jH5-pc-rZi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Om-Ln-DH8">
                                 <rect key="frame" x="229" y="236" width="71" height="40"/>
@@ -81,6 +96,9 @@
                                     <color key="titleColor" red="0.22486724529999999" green="0.72747501219999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="adviceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="KgF-vE-DTt"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-ya-ghx">
                                 <rect key="frame" x="133" y="529" width="55" height="29"/>
@@ -128,15 +146,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wza-Ez-7ox">
-                                <rect key="frame" x="253" y="380" width="42" height="21"/>
+                                <rect key="frame" x="253" y="381" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="$">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="betAmountButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jy3-FY-7O5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.87867936629999999" green="1" blue="0.78565705630000005" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="betAmountDisplay" destination="EDl-AG-5hc" id="8f1-S8-x3g"/>
+                        <outlet property="totalAmount" destination="ZTM-49-GP8" id="awj-vz-7J0"/>
+                        <outlet property="totalCardNumber" destination="yTz-at-3YP" id="SJw-vP-gd8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
