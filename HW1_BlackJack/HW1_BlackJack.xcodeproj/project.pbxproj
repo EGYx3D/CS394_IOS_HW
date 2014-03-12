@@ -22,6 +22,10 @@
 		42FF412318D004CD009F2585 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42FF410218D004CD009F2585 /* UIKit.framework */; };
 		42FF412B18D004CD009F2585 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FF412918D004CD009F2585 /* InfoPlist.strings */; };
 		42FF412D18D004CD009F2585 /* HW1_BlackJackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF412C18D004CD009F2585 /* HW1_BlackJackTests.m */; };
+		42FF413818D0060F009F2585 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF413718D0060F009F2585 /* Card.m */; };
+		42FF413B18D0061A009F2585 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF413A18D0061A009F2585 /* Deck.m */; };
+		42FF413E18D0062C009F2585 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF413D18D0062C009F2585 /* Hand.m */; };
+		42FF414118D00636009F2585 /* GameTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF414018D00636009F2585 /* GameTable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		42FF412818D004CD009F2585 /* HW1_BlackJackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW1_BlackJackTests-Info.plist"; sourceTree = "<group>"; };
 		42FF412A18D004CD009F2585 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42FF412C18D004CD009F2585 /* HW1_BlackJackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW1_BlackJackTests.m; sourceTree = "<group>"; };
+		42FF413618D0060F009F2585 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		42FF413718D0060F009F2585 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		42FF413918D0061A009F2585 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		42FF413A18D0061A009F2585 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		42FF413C18D0062C009F2585 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		42FF413D18D0062C009F2585 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		42FF413F18D00636009F2585 /* GameTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTable.h; sourceTree = "<group>"; };
+		42FF414018D00636009F2585 /* GameTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,14 @@
 				42FF411318D004CD009F2585 /* Main_iPad.storyboard */,
 				42FF411618D004CD009F2585 /* ViewController.h */,
 				42FF411718D004CD009F2585 /* ViewController.m */,
+				42FF413618D0060F009F2585 /* Card.h */,
+				42FF413718D0060F009F2585 /* Card.m */,
+				42FF413918D0061A009F2585 /* Deck.h */,
+				42FF413A18D0061A009F2585 /* Deck.m */,
+				42FF413C18D0062C009F2585 /* Hand.h */,
+				42FF413D18D0062C009F2585 /* Hand.m */,
+				42FF413F18D00636009F2585 /* GameTable.h */,
+				42FF414018D00636009F2585 /* GameTable.m */,
 				42FF411918D004CD009F2585 /* Images.xcassets */,
 				42FF410518D004CD009F2585 /* Supporting Files */,
 			);
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42FF414118D00636009F2585 /* GameTable.m in Sources */,
+				42FF413E18D0062C009F2585 /* Hand.m in Sources */,
+				42FF413B18D0061A009F2585 /* Deck.m in Sources */,
 				42FF411818D004CD009F2585 /* ViewController.m in Sources */,
 				42FF410F18D004CD009F2585 /* AppDelegate.m in Sources */,
 				42FF410B18D004CD009F2585 /* main.m in Sources */,
+				42FF413818D0060F009F2585 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
